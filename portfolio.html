@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Developer Showcase — CodeFoundry</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+<nav class="site-nav">
+  <a class="brand" href="index.html"><span class="brand-mark">CF</span><span>CODEFOUNDRY</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="challenges.html">Challenges</a>
+    <a href="projects.html">Projects</a>
+    <a href="portfolio.html" class="active">Showcase</a>
+  </div>
+  <a class="nav-cta" href="dashboard.html">Dashboard <span>↗</span></a>
+</nav>
+
+<main class="container portfolio-hub">
+  <!-- Page Hero -->
+  <section class="page-hero" style="padding-top:20px; text-align:center;">
+    <div class="eyebrow">05 / DEVELOPER SHOWCASE</div>
+    <h1>WORK WORTH <span class="lime">SHOWING.</span></h1>
+    <p class="lead" style="margin: 15px auto; max-width: 680px;">These profiles showcase real developer work, active production projects, custom visual identities, and shipped code bases.</p>
+
+    <!-- Showcase Hero Stats -->
+    <div class="portfolio-hero-stats">
+      <div class="p-hero-stat"><b>06</b><small>Featured Engineers</small></div>
+      <div class="p-hero-stat"><b>58+</b><small>Shipped Products</small></div>
+      <div class="p-hero-stat"><b>99.4%</b><small>Avg Quality Score</small></div>
+      <div class="p-hero-stat"><b>100%</b><small>Verified Code</small></div>
+    </div>
+  </section>
+
+  <!-- Filter Bar with Interactive Data-Filter Attributes -->
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">ALL PROFILES (6)</button>
+    <button class="filter-btn" data-filter="fullstack">FULL-STACK</button>
+    <button class="filter-btn" data-filter="frontend">FRONTEND & UI</button>
+    <button class="filter-btn" data-filter="backend">BACKEND & SYSTEMS</button>
+    <button class="filter-btn" data-filter="ai">AI & DATA</button>
+    <button class="filter-btn" data-filter="devops">DEVOPS & CLOUD</button>
+    <button class="filter-btn" data-filter="mobile">MOBILE & SYSTEMS</button>
+  </div>
+
+  <!-- Symmetrical 3x2 Desktop Grid for 6 Cards -->
+  <div class="grid grid-3">
+
+    <!-- Card 1: Alex Morgan -->
+    <a class="profile-card" data-category="fullstack" href="portfolios/alex.html">
+      <div class="profile-card-top">
+        <span class="profile-location"><span class="pulse-dot"></span> SAN FRANCISCO, CA</span>
+        <span class="profile-role-badge">FULL-STACK</span>
+      </div>
+      <div class="profile-art-banner">
+        <svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+          <rect width="500" height="250" fill="#121418"/>
+          <rect x="40" y="30" width="420" height="190" rx="6" fill="#1a1e24" stroke="#2e3642" stroke-width="1.5"/>
+          <path d="M 70 170 L 150 110 L 230 140 L 310 70 L 430 100" fill="none" stroke="#d9ff45" stroke-width="2.5"/>
+          <circle cx="310" cy="70" r="5" fill="#d9ff45"/>
+          <text x="65" y="65" fill="#fff" font-family="Space Grotesk" font-size="14" font-weight="700">NORTHSTAR FINANCIAL</text>
+          <text x="360" y="65" fill="#d9ff45" font-family="JetBrains Mono" font-size="11">$142,500.00</text>
+        </svg>
+      </div>
+      <div class="profile-card-body">
+        <h3>Alex Morgan</h3>
+        <p class="muted">Editorial / minimal / product-focused full-stack systems engineer.</p>
+        <div class="profile-tags">
+          <span class="profile-tag">REACT 19</span>
+          <span class="profile-tag">TYPESCRIPT</span>
+          <span class="profile-tag">NODE.JS</span>
+          <span class="profile-tag">POSTGRESQL</span>
+        </div>
+      </div>
+      <div class="profile-stats-bar">
+        <div class="profile-stat-item"><b>12+</b><small>Products</small></div>
+        <div class="profile-stat-item"><b>180K</b><small>Users</small></div>
+        <div class="profile-stat-item"><b>99.9%</b><small>Uptime</small></div>
+      </div>
+      <div class="profile-card-footer">
+        <span>VIEW PORTFOLIO</span>
+        <span>→</span>
+      </div>
+    </a>
+
+    <!-- Card 2: Maya Chen -->
+    <a class="profile-card" data-category="frontend" href="portfolios/maya.html">
+      <div class="profile-card-top">
+        <span class="profile-location"><span class="pulse-dot"></span> BROOKLYN, NY</span>
+        <span class="profile-role-badge" style="color:#d77a45; border-color:#5a3118">FRONTEND</span>
+      </div>
+      <div class="profile-art-banner">
+        <svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+          <rect width="500" height="250" fill="#1a1412"/>
+          <circle cx="250" cy="125" r="70" fill="none" stroke="#d77a45" stroke-width="2.5"/>
+          <polygon points="250,55 310,160 190,160" fill="none" stroke="#d9ff45" stroke-width="1.5"/>
+          <text x="250" y="210" fill="#efe6d6" font-family="Space Grotesk" font-size="13" text-anchor="middle">EXPERIMENTAL CANVAS GL</text>
+        </svg>
+      </div>
+      <div class="profile-card-body">
+        <h3>Maya Chen</h3>
+        <p class="muted">Experimental / art direction / 3D motion & interactive UI experiences.</p>
+        <div class="profile-tags">
+          <span class="profile-tag">THREE.JS</span>
+          <span class="profile-tag">GLSL</span>
+          <span class="profile-tag">NEXT.JS</span>
+          <span class="profile-tag">GSAP</span>
+        </div>
+      </div>
+      <div class="profile-stats-bar">
+        <div class="profile-stat-item"><b>16</b><small>Crafts</small></div>
+        <div class="profile-stat-item"><b>24</b><small>Awwwards</small></div>
+        <div class="profile-stat-item"><b>1.4M</b><small>Views</small></div>
+      </div>
+      <div class="profile-card-footer">
+        <span>VIEW PORTFOLIO</span>
+        <span>→</span>
+      </div>
+    </a>
+
+    <!-- Card 3: Arjun Rao -->
+    <a class="profile-card" data-category="backend" href="portfolios/arjun.html">
+      <div class="profile-card-top">
+        <span class="profile-location"><span class="pulse-dot"></span> SEATTLE, WA</span>
+        <span class="profile-role-badge" style="color:#8c5cff; border-color:#3b2375">BACKEND</span>
+      </div>
+      <div class="profile-art-banner">
+        <svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+          <rect width="500" height="250" fill="#0f1622"/>
+          <rect x="50" y="40" width="400" height="170" fill="#152030" stroke="#253854" stroke-width="1.5"/>
+          <text x="80" y="85" fill="#8c5cff" font-family="JetBrains Mono" font-size="12">POST /v2/telemetry/ingest</text>
+          <text x="80" y="115" fill="#d9ff45" font-family="JetBrains Mono" font-size="12">200 OK (1.2M req/sec)</text>
+          <text x="80" y="145" fill="#58a6ff" font-family="JetBrains Mono" font-size="11">Latency: 0.4ms p99</text>
+        </svg>
+      </div>
+      <div class="profile-card-body">
+        <h3>Arjun Rao</h3>
+        <p class="muted">Luxury tech / high-throughput distributed systems & Rust backend kernel.</p>
+        <div class="profile-tags">
+          <span class="profile-tag">RUST</span>
+          <span class="profile-tag">GO</span>
+          <span class="profile-tag">KUBERNETES</span>
+          <span class="profile-tag">GRPC</span>
+        </div>
+      </div>
+      <div class="profile-stats-bar">
+        <div class="profile-stat-item"><b>1.2M</b><small>req/sec</small></div>
+        <div class="profile-stat-item"><b>04</b><small>Services</small></div>
+        <div class="profile-stat-item"><b>99.999%</b><small>SLA</small></div>
+      </div>
+      <div class="profile-card-footer">
+        <span>VIEW PORTFOLIO</span>
+        <span>→</span>
+      </div>
+    </a>
+
+    <!-- Card 4: Sofia Williams -->
+    <a class="profile-card" data-category="ai" href="portfolios/sofia.html">
+      <div class="profile-card-top">
+        <span class="profile-location"><span class="pulse-dot"></span> BOSTON, MA</span>
+        <span class="profile-role-badge" style="color:#5b66bb; border-color:#2a3061">AI & DATA</span>
+      </div>
+      <div class="profile-art-banner">
+        <svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+          <rect width="500" height="250" fill="#141419"/>
+          <circle cx="150" cy="125" r="35" fill="none" stroke="#5b66bb" stroke-width="2"/>
+          <circle cx="250" cy="75" r="35" fill="none" stroke="#d9ff45" stroke-width="2"/>
+          <circle cx="250" cy="175" r="35" fill="none" stroke="#8c5cff" stroke-width="2"/>
+          <circle cx="350" cy="125" r="35" fill="none" stroke="#5b66bb" stroke-width="2"/>
+          <line x1="185" y1="125" x2="215" y2="75" stroke="#555" stroke-width="1.5"/>
+          <line x1="185" y1="125" x2="215" y2="175" stroke="#555" stroke-width="1.5"/>
+          <line x1="285" y1="75" x2="315" y2="125" stroke="#555" stroke-width="1.5"/>
+          <line x1="285" y1="175" x2="315" y2="125" stroke="#555" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <div class="profile-card-body">
+        <h3>Sofia Williams</h3>
+        <p class="muted">AI Research / tensor computation / LLM fine-tuning & quantitative data.</p>
+        <div class="profile-tags">
+          <span class="profile-tag">PYTORCH</span>
+          <span class="profile-tag">CUDA</span>
+          <span class="profile-tag">PYTHON</span>
+          <span class="profile-tag">LANGCHAIN</span>
+        </div>
+      </div>
+      <div class="profile-stats-bar">
+        <div class="profile-stat-item"><b>08</b><small>Papers</small></div>
+        <div class="profile-stat-item"><b>14M</b><small>Params</small></div>
+        <div class="profile-stat-item"><b>4.8k</b><small>Stars</small></div>
+      </div>
+      <div class="profile-card-footer">
+        <span>VIEW PORTFOLIO</span>
+        <span>→</span>
+      </div>
+    </a>
+
+    <!-- Card 5: Elena Rostova -->
+    <a class="profile-card" data-category="devops" href="portfolios/elena.html">
+      <div class="profile-card-top">
+        <span class="profile-location"><span class="pulse-dot"></span> AUSTIN, TX</span>
+        <span class="profile-role-badge" style="color:#38ef7d; border-color:#18592f">DEVOPS</span>
+      </div>
+      <div class="profile-art-banner">
+        <svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+          <rect width="500" height="250" fill="#0d131a"/>
+          <rect x="60" y="40" width="380" height="170" rx="6" fill="#141d28" stroke="#223247" stroke-width="1.5"/>
+          <circle cx="250" cy="110" r="40" fill="none" stroke="#d9ff45" stroke-width="2"/>
+          <text x="250" y="180" fill="#38ef7d" font-family="JetBrains Mono" font-size="12" text-anchor="middle">KUBERNETES MESH CONTROL</text>
+        </svg>
+      </div>
+      <div class="profile-card-body">
+        <h3>Elena Rostova</h3>
+        <p class="muted">Infrastructure as code / zero-trust security / multi-region Kubernetes architectures.</p>
+        <div class="profile-tags">
+          <span class="profile-tag">KUBERNETES</span>
+          <span class="profile-tag">TERRAFORM</span>
+          <span class="profile-tag">AWS</span>
+          <span class="profile-tag">ISTIO</span>
+        </div>
+      </div>
+      <div class="profile-stats-bar">
+        <div class="profile-stat-item"><b>45+</b><small>Clusters</small></div>
+        <div class="profile-stat-item"><b>&lt;5ms</b><small>Latency</small></div>
+        <div class="profile-stat-item"><b>100%</b><small>SOC2</small></div>
+      </div>
+      <div class="profile-card-footer">
+        <span>VIEW PORTFOLIO</span>
+        <span>→</span>
+      </div>
+    </a>
+
+    <!-- Card 6: Lucas Silva -->
+    <a class="profile-card" data-category="mobile" href="portfolios/lucas.html">
+      <div class="profile-card-top">
+        <span class="profile-location"><span class="pulse-dot"></span> LONDON, UK</span>
+        <span class="profile-role-badge" style="color:#00f2fe; border-color:#115154">MOBILE & WASM</span>
+      </div>
+      <div class="profile-art-banner">
+        <svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+          <rect width="500" height="250" fill="#14101b"/>
+          <rect x="180" y="25" width="140" height="200" rx="16" fill="#1f182a" stroke="#00f2fe" stroke-width="2"/>
+          <path d="M 195 130 C 220 90, 240 170, 260 110 S 290 140, 305 100" fill="none" stroke="#d9ff45" stroke-width="2"/>
+          <text x="250" y="200" fill="#fff" font-family="Space Grotesk" font-size="10" text-anchor="middle">60 FPS NATIVE ENGINE</text>
+        </svg>
+      </div>
+      <div class="profile-card-body">
+        <h3>Lucas Silva</h3>
+        <p class="muted">Cross-platform / WebAssembly / native Swift & low-level C++ audio DSP routines.</p>
+        <div class="profile-tags">
+          <span class="profile-tag">SWIFT</span>
+          <span class="profile-tag">WEBASSEMBLY</span>
+          <span class="profile-tag">C++</span>
+          <span class="profile-tag">FLUTTER</span>
+        </div>
+      </div>
+      <div class="profile-stats-bar">
+        <div class="profile-stat-item"><b>09</b><small>Apps</small></div>
+        <div class="profile-stat-item"><b>4.9★</b><small>Rating</small></div>
+        <div class="profile-stat-item"><b>500K</b><small>Downloads</small></div>
+      </div>
+      <div class="profile-card-footer">
+        <span>VIEW PORTFOLIO</span>
+        <span>→</span>
+      </div>
+    </a>
+
+  </div>
+
+  <!-- Open-Source Repositories Spotlight Section -->
+  <section class="showcase-spotlight">
+    <div style="display:flex; justify-content:space-between; align-items:end; flex-wrap:wrap; gap:15px">
+      <div>
+        <div class="eyebrow">OPEN-SOURCE SPOTLIGHT</div>
+        <h2 style="font-size:28px; margin-top:5px">COMMUNITY REPOSITORIES</h2>
+      </div>
+      <span class="mono" style="font-size:11px; color:var(--muted)">CURATED CODEBASES BY SHOWCASE DEVELOPERS</span>
+    </div>
+
+    <div class="spotlight-grid">
+      <div class="spotlight-card">
+        <div>
+          <div class="spotlight-header">
+            <span class="mono" style="color:var(--lime)">RUST / SYSTEMS</span>
+            <span class="spotlight-stars">★ 4,280</span>
+          </div>
+          <h4 style="font-size:18px; margin:10px 0 6px">Kernel-X Runtime</h4>
+          <p class="muted" style="font-size:12px; line-height:1.5">High-throughput async event-loop runtime built for edge container deployments.</p>
+        </div>
+        <div style="font:10px 'JetBrains Mono'; color:#777; border-top:1px solid #1a1a1a; padding-top:10px">Maintainer: Arjun Rao</div>
+      </div>
+
+      <div class="spotlight-card">
+        <div>
+          <div class="spotlight-header">
+            <span class="mono" style="color:#d77a45">WEBGL / CANVAS</span>
+            <span class="spotlight-stars">★ 2,840</span>
+          </div>
+          <h4 style="font-size:18px; margin:10px 0 6px">Canvas-GL Motion</h4>
+          <p class="muted" style="font-size:12px; line-height:1.5">GPU-accelerated micro-animation engine for reactive web dashboard interfaces.</p>
+        </div>
+        <div style="font:10px 'JetBrains Mono'; color:#777; border-top:1px solid #1a1a1a; padding-top:10px">Maintainer: Maya Chen</div>
+      </div>
+
+      <div class="spotlight-card">
+        <div>
+          <div class="spotlight-header">
+            <span class="mono" style="color:#8c5cff">PYTHON / PYTORCH</span>
+            <span class="spotlight-stars">★ 3,520</span>
+          </div>
+          <h4 style="font-size:18px; margin:10px 0 6px">Neural-Quant Engine</h4>
+          <p class="muted" style="font-size:12px; line-height:1.5">Sub-millisecond quantization & inference framework for mobile devices.</p>
+        </div>
+        <div style="font:10px 'JetBrains Mono'; color:#777; border-top:1px solid #1a1a1a; padding-top:10px">Maintainer: Sofia Williams</div>
+      </div>
+
+      <div class="spotlight-card">
+        <div>
+          <div class="spotlight-header">
+            <span class="mono" style="color:#38ef7d">GO / KUBERNETES</span>
+            <span class="spotlight-stars">★ 1,940</span>
+          </div>
+          <h4 style="font-size:18px; margin:10px 0 6px">Cloud-Mesh Fabric</h4>
+          <p class="muted" style="font-size:12px; line-height:1.5">Zero-trust service mesh operator for multi-region Kubernetes clusters.</p>
+        </div>
+        <div style="font:10px 'JetBrains Mono'; color:#777; border-top:1px solid #1a1a1a; padding-top:10px">Maintainer: Elena Rostova</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Submit CTA Section -->
+  <section style="margin-top:60px; padding:40px; background:linear-gradient(135deg, #141618, #0a0b0c); border:1px solid var(--line); text-align:center;">
+    <div class="eyebrow" style="margin-bottom:8px">GET FEATURED</div>
+    <h2 style="font-size: clamp(26px, 4vw, 36px); margin-bottom:12px">READY TO FEATURE YOUR WORK?</h2>
+    <p class="lead" style="max-width:600px; margin:0 auto 24px; font-size:14px">Join over 1,400+ developers publishing verified project portfolios on CodeFoundry Showcase.</p>
+    <div style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap">
+      <a href="dashboard.html" class="nav-cta" style="padding:12px 24px">Submit Profile ↗</a>
+      <a href="courses.html" class="btn btn-outline" style="padding:12px 24px">Explore Learning Tracks</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-brand-col">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">CF</span>
+          <span>CODEFOUNDRY</span>
+        </a>
+        <p class="footer-desc">
+          Learn. Build. Ship. Modern interactive developer academy, real-world coding practice labs, and verified developer showcase platform.
+        </p>
+        <div class="footer-socials">
+          <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter / X" class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://discord.com" target="_blank" rel="noopener" aria-label="Discord" class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128c.126-.093.252-.19.372-.287a.075.075 0 01.078-.01c3.927 1.793 8.18 1.793 12.061 0a.074.074 0 01.079.009c.12.098.245.195.372.288a.077.077 0 01-.006.128c-.598.348-1.22.648-1.873.892a.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-newsletter-col">
+        <span class="mono lime" style="font-size:11px">WEEKLY ENGINEERING DIGEST</span>
+        <h4>Stay Shipped & Informed</h4>
+        <p class="muted" style="font-size:12px; margin:4px 0 0">Get weekly code teardowns, new challenge releases, and system architecture breakdowns.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').innerText='SUBSCRIBED ✓'; this.querySelector('button').style.background='#d9ff45'; this.querySelector('button').style.color='#000';">
+          <input type="email" placeholder="enter your email address..." required class="newsletter-input">
+          <button type="submit" class="newsletter-btn">SUBSCRIBE ↗</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-copy">
+        <span class="mono">CODEFOUNDRY / 2026</span> · <span>© 2026 CodeFoundry Inc. All rights reserved.</span>
+      </div>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Security Audit</a>
+        <button class="back-to-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑ BACK TO TOP</button>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+
+.hero-home .hero-copy h1{max-width:850px}.hero-home .hero-copy h1 em{font-style:normal;color:var(--lime)}
+.glow-word{position:relative}.glow-word:after{content:"";position:absolute;inset:20% -5%;background:var(--lime);filter:blur(70px);opacity:.08;z-index:-1}
+.signal{display:inline-flex;gap:12px;align-items:center;justify-content:center;font:10px "JetBrains Mono";color:#777;margin:0 auto 25px auto}.signal i{width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 14px var(--lime)}

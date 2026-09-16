@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Projects — CodeFoundry</title><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/components.css">
+</head><body>
+<nav class="site-nav">
+  <a class="brand" href="index.html"><span class="brand-mark">CF</span><span>CODEFOUNDRY</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="challenges.html">Challenges</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="portfolio.html">Showcase</a>
+  </div>
+  <a class="nav-cta" href="dashboard.html">Dashboard <span>↗</span></a>
+</nav>
+
+<main class="container">
+<section class="page-hero">
+  <div class="eyebrow">03 / BUILD LAB & PORTFOLIO PROJECTS</div>
+  <h1>DON'T JUST LEARN CODE. <span class="lime">BUILD.</span></h1>
+  <p class="lead">Projects turn isolated skills into robust systems you can reason about, showcase, deploy, and explain to tech teams.</p>
+</section>
+
+<!-- Project Filter Bar -->
+<div class="filter-bar">
+  <button class="filter-btn active" data-filter="all">ALL PROJECTS (06)</button>
+  <button class="filter-btn" data-filter="react">REACT & NEXT</button>
+  <button class="filter-btn" data-filter="node">NODE & APIs</button>
+  <button class="filter-btn" data-filter="python">PYTHON & DATA</button>
+  <button class="filter-btn" data-filter="ml">ML & AI</button>
+</div>
+
+<section class="section" style="padding-top:10px">
+<div class="grid grid-3">
+<article class="card project-card" data-category="react">
+  <div class="project-art">
+    <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#0c0e14"/>
+      <ellipse cx="200" cy="100" rx="90" ry="35" fill="none" stroke="#61dafb" stroke-width="1.5" transform="rotate(30 200 100)"/>
+      <ellipse cx="200" cy="100" rx="90" ry="35" fill="none" stroke="#8c5cff" stroke-width="1.5" transform="rotate(-30 200 100)"/>
+      <circle cx="200" cy="100" r="8" fill="#d9ff45"/>
+      <text x="200" y="170" fill="#a0a0a0" font-family="JetBrains Mono" font-size="11" text-anchor="middle">STREAMING UI</text>
+    </svg>
+  </div>
+  <div>
+    <div class="project-meta"><span>REACT / API</span><span>04–06 HRS</span></div>
+    <h3>AI Chat Interface</h3>
+    <p class="muted">Create a production-style conversational UI with Markdown rendering, token streaming, and history persistence.</p>
+    <div class="tags"><span class="tag">REACT 19</span><span class="tag">TYPESCRIPT</span><span class="tag">OPENAI</span></div>
+  </div>
+</article>
+
+<article class="card project-card" data-category="node">
+  <div class="project-art">
+    <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#0e0d0c"/>
+      <rect x="70" y="40" width="260" height="120" fill="none" stroke="#d9ff45" stroke-width="1.5"/>
+      <line x1="70" y1="80" x2="330" y2="80" stroke="#333" stroke-width="1"/>
+      <circle cx="90" cy="60" r="4" fill="#ff6b6b"/>
+      <circle cx="105" cy="60" r="4" fill="#ffb84d"/>
+      <circle cx="120" cy="60" r="4" fill="#d9ff45"/>
+      <text x="85" y="115" fill="#8c5cff" font-family="JetBrains Mono" font-size="12">POST /api/v1/auth/login</text>
+      <text x="85" y="140" fill="#d9ff45" font-family="JetBrains Mono" font-size="11">200 OK (14ms)</text>
+    </svg>
+  </div>
+  <div>
+    <div class="project-meta"><span>NODE / POSTGRES</span><span>06–08 HRS</span></div>
+    <h3>REST API Microservice</h3>
+    <p class="muted">Build secure JWT auth, PostgreSQL migrations, Docker containers, and automated integration tests.</p>
+    <div class="tags"><span class="tag">NODE.JS</span><span class="tag">POSTGRES</span><span class="tag">DOCKER</span></div>
+  </div>
+</article>
+
+<article class="card project-card" data-category="python">
+  <div class="project-art">
+    <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#0b0e12"/>
+      <path d="M 60 140 Q 130 40 200 110 T 340 70" fill="none" stroke="#8c5cff" stroke-width="2.5"/>
+      <path d="M 60 160 Q 140 100 220 130 T 340 50" fill="none" stroke="#d9ff45" stroke-width="2" stroke-dasharray="4,4"/>
+      <text x="310" y="40" fill="#d9ff45" font-family="JetBrains Mono" font-size="11">METRICS</text>
+    </svg>
+  </div>
+  <div>
+    <div class="project-meta"><span>PYTHON / D3</span><span>05–07 HRS</span></div>
+    <h3>Data Visualizer Engine</h3>
+    <p class="muted">Transform raw datasets into an interactive analytical story with filtering, aggregations, and export features.</p>
+    <div class="tags"><span class="tag">PYTHON</span><span class="tag">PANDAS</span><span class="tag">D3.JS</span></div>
+  </div>
+</article>
+
+<article class="card project-card" data-category="python">
+  <div class="project-art">
+    <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#0a0a0d"/>
+      <text x="40" y="60" fill="#d9ff45" font-family="JetBrains Mono" font-size="13">$ forge init --template=cli</text>
+      <text x="40" y="90" fill="#aaa" font-family="JetBrains Mono" font-size="12">✔ Compiling modules...</text>
+      <text x="40" y="120" fill="#8c5cff" font-family="JetBrains Mono" font-size="12">✔ CLI Tool v2.4 initialized</text>
+      <line x1="40" y1="140" x2="360" y2="140" stroke="#252525" stroke-width="1"/>
+      <text x="40" y="165" fill="#555" font-family="JetBrains Mono" font-size="10">STATUS: READY</text>
+    </svg>
+  </div>
+  <div>
+    <div class="project-meta"><span>PYTHON / CLI</span><span>03–05 HRS</span></div>
+    <h3>CLI Productivity Tool</h3>
+    <p class="muted">Design a fast terminal workflow utility with subcommands, interactive prompts, and config management.</p>
+    <div class="tags"><span class="tag">PYTHON</span><span class="tag">CLICK</span><span class="tag">CLI</span></div>
+  </div>
+</article>
+
+<article class="card project-card" data-category="react">
+  <div class="project-art">
+    <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#0d0b12"/>
+      <circle cx="120" cy="100" r="30" fill="none" stroke="#d9ff45" stroke-width="2"/>
+      <circle cx="280" cy="100" r="30" fill="none" stroke="#8c5cff" stroke-width="2"/>
+      <line x1="150" y1="100" x2="250" y2="100" stroke="#d9ff45" stroke-width="2" stroke-dasharray="4,4"/>
+      <text x="200" y="90" fill="#d9ff45" font-family="JetBrains Mono" font-size="10" text-anchor="middle">WS_CONNECTED</text>
+    </svg>
+  </div>
+  <div>
+    <div class="project-meta"><span>NEXT / WEBSOCKET</span><span>08–10 HRS</span></div>
+    <h3>Realtime Collaboration App</h3>
+    <p class="muted">Build a collaborative multi-user workspace with live presence cursors, canvas drawing, and sync engine.</p>
+    <div class="tags"><span class="tag">NEXT.JS</span><span class="tag">WEBSOCKETS</span><span class="tag">CANVAS</span></div>
+  </div>
+</article>
+
+<article class="card project-card" data-category="ml">
+  <div class="project-art">
+    <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="200" fill="#0c0f12"/>
+      <rect x="80" y="60" width="80" height="80" fill="none" stroke="#8c5cff" stroke-width="1.5"/>
+      <rect x="240" y="60" width="80" height="80" fill="none" stroke="#d9ff45" stroke-width="1.5"/>
+      <line x1="160" y1="100" x2="240" y2="100" stroke="#d9ff45" stroke-width="2"/>
+      <text x="200" y="90" fill="#d9ff45" font-family="JetBrains Mono" font-size="10" text-anchor="middle">INFERENCE</text>
+    </svg>
+  </div>
+  <div>
+    <div class="project-meta"><span>PYTHON / ML</span><span>08–12 HRS</span></div>
+    <h3>ML Prediction Service</h3>
+    <p class="muted">Train, evaluate, package, and expose a Machine Learning model via a high-speed FastAPI endpoint.</p>
+    <div class="tags"><span class="tag">PYTHON</span><span class="tag">SCIKIT</span><span class="tag">FASTAPI</span></div>
+  </div>
+</article>
+</div></section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-brand-col">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">CF</span>
+          <span>CODEFOUNDRY</span>
+        </a>
+        <p class="footer-desc">
+          Learn. Build. Ship. Modern interactive developer academy, real-world coding practice labs, and verified developer showcase platform.
+        </p>
+        <div class="footer-socials">
+          <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter / X" class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://discord.com" target="_blank" rel="noopener" aria-label="Discord" class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128c.126-.093.252-.19.372-.287a.075.075 0 01.078-.01c3.927 1.793 8.18 1.793 12.061 0a.074.074 0 01.079.009c.12.098.245.195.372.288a.077.077 0 01-.006.128c-.598.348-1.22.648-1.873.892a.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-newsletter-col">
+        <span class="mono lime" style="font-size:11px">WEEKLY ENGINEERING DIGEST</span>
+        <h4>Stay Shipped & Informed</h4>
+        <p class="muted" style="font-size:12px; margin:4px 0 0">Get weekly code teardowns, new challenge releases, and system architecture breakdowns.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').innerText='SUBSCRIBED ✓'; this.querySelector('button').style.background='#d9ff45'; this.querySelector('button').style.color='#000';">
+          <input type="email" placeholder="enter your email address..." required class="newsletter-input">
+          <button type="submit" class="newsletter-btn">SUBSCRIBE ↗</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-copy">
+        <span class="mono">CODEFOUNDRY / 2026</span> · <span>© 2026 CodeFoundry Inc. All rights reserved.</span>
+      </div>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Security Audit</a>
+        <button class="back-to-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑ BACK TO TOP</button>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

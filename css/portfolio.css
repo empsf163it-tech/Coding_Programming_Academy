@@ -1,0 +1,100 @@
+
+body.portfolio{background:#f2efe8;color:#171717}body.portfolio:before{display:none}
+a{color:inherit;text-decoration:none}
+.pnav{max-width:1180px;margin:auto;padding:28px 25px;display:flex;justify-content:space-between;align-items:center;font-size:12px;font-family:"JetBrains Mono",monospace}
+.pnav a{color:inherit;text-decoration:none;font-weight:600;transition:.2s}
+.pnav a:hover{opacity:.7}
+.pnav-back{padding:6px 12px;border:1px solid currentColor;border-radius:3px}
+
+.pwrap{max-width:1180px;margin:auto;padding:30px 25px 80px}
+.p-eyebrow{font:600 11px "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase}
+.p-hero{padding:35px 0 25px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.p-hero h1{font-size:clamp(36px,5vw,54px);line-height:1.1;margin:8px 0}
+.p-hero p{max-width:600px;font-size:16px;line-height:1.65;color:#555;margin:12px auto 0}
+.p-hero-actions{display:flex;gap:12px;margin-top:20px}
+.p-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;font:700 11px "JetBrains Mono",monospace;border:1px solid currentColor;transition:.2s}
+.p-btn:hover{opacity:.7;transform:translateY(-2px)}
+
+/* Symmetric 2-Column Grid */
+.p-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:20px}
+.work{background:#ded9cf;padding:24px;display:flex;flex-direction:column;justify-content:space-between;border-radius:6px;transition:.25s;border:1px solid rgba(0,0,0,.08)}
+.work:hover{transform:translateY(-4px);box-shadow:0 12px 35px rgba(0,0,0,.08)}
+
+.work-art{width:100%;height:220px;background:#151515;border-radius:4px;overflow:hidden;position:relative;margin-bottom:18px}
+.work-art svg{width:100%;height:100%;object-fit:cover}
+
+.p-meta{display:flex;justify-content:space-between;font:11px "JetBrains Mono",monospace;opacity:.65;margin:8px 0 12px}
+.p-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.p-tag{font:500 10px "JetBrains Mono",monospace;padding:4px 8px;border:1px solid rgba(0,0,0,.2);border-radius:2px}
+
+/* Metrics & Stats */
+.p-section{padding:50px 0;border-top:1px solid rgba(0,0,0,.12)}
+.p-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:25px 0 40px}
+.p-stat-card{background:rgba(0,0,0,.04);padding:20px;border-radius:6px;border:1px solid rgba(0,0,0,.06)}
+.p-stat-card b{font:700 36px "Space Grotesk",sans-serif;display:block}
+.p-stat-card small{font:10px "JetBrains Mono",monospace;opacity:.7;text-transform:uppercase}
+
+/* Skill Stack Section */
+.skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:20px}
+.skill-card{background:rgba(0,0,0,.03);border:1px solid rgba(0,0,0,.08);padding:20px;border-radius:6px}
+.skill-card h4{font-family:"Space Grotesk",sans-serif;margin:0 0 12px;font-size:16px}
+
+/* Experience Timeline */
+.experience-list{display:flex;flex-direction:column;gap:18px;margin-top:20px}
+.experience-item{background:rgba(0,0,0,.03);border:1px solid rgba(0,0,0,.08);padding:22px;border-radius:6px;display:flex;justify-content:space-between;gap:20px}
+.experience-item h4{font-family:"Space Grotesk",sans-serif;margin:0 0 4px;font-size:18px}
+.experience-item p{margin:8px 0 0;font-size:14px;line-height:1.6;opacity:.8}
+
+.about{padding:50px 0;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.about p{font-size:22px;line-height:1.4;margin:0}
+.about-details{font-size:14px;line-height:1.7;opacity:.85}
+
+.contact{border-top:1px solid rgba(0,0,0,.15);padding-top:40px;display:flex;justify-content:space-between;align-items:center}
+.contact a{font:700 13px "JetBrains Mono",monospace;padding:12px 20px;border:1px solid currentColor}
+
+.pfoot{max-width:1180px;margin:auto;padding:30px 25px 60px;opacity:.6;font-size:12px;font-family:"JetBrains Mono",monospace}
+
+/* Experimental Theme */
+body.experimental{background:#f5eee2;color:#201a18}
+body.experimental:before{display:none}
+.experimental .pnav{font-family:"Space Grotesk",sans-serif}
+.experimental .pwrap{max-width:1280px}
+.experimental .work{background:#201a18;color:#f5eee2;border-radius:20px;border:0}
+.experimental .work-art{border-radius:14px;background:#181414}
+.experimental .p-tag{border-color:rgba(245,238,226,.3);color:#f5eee2}
+.experimental .p-stat-card,.experimental .skill-card,.experimental .experience-item{background:rgba(32,26,24,.06);border-color:rgba(32,26,24,.12)}
+.experimental .about p{font-size:26px}
+.experimental .contact a{border-radius:30px;background:#f06c35;color:#fff;border:0}
+
+/* Luxury Tech Theme */
+body.luxury{background:#080a0d;color:#e7e7e2}
+body.luxury:before{display:none}
+.luxury .pnav{border-bottom:1px solid #272a2d}
+.luxury .work{background:#111419;border:1px solid #292d32;color:#e7e7e2}
+.luxury .work-art{background:#0d1015;border:1px solid #22272e}
+.luxury .p-hero p{color:#8d9196}
+.luxury .p-tag{border-color:#30363d;color:#8d9196}
+.luxury .p-stat-card,.luxury .skill-card,.luxury .experience-item{background:#111419;border:1px solid #24282e}
+.luxury .p-stat-card b{color:#d9ff45}
+.luxury .about p{color:#a4a9ae}
+.luxury .contact{border-color:#272a2d}
+.luxury .contact a{border-color:#d9ff45;color:#d9ff45}
+
+/* Research Theme */
+body.research{background:#f3f5f8;color:#142033}
+body.research:before{display:block;opacity:.35;background-image:linear-gradient(#b9c2ce 1px,transparent 1px),linear-gradient(90deg,#b9c2ce 1px,transparent 1px);background-size:38px 38px}
+.research .pnav{font-family:"JetBrains Mono",monospace}
+.research .p-hero h1{color:#244b9b}
+.research .p-hero p{color:#526174}
+.research .work{background:#fff;border:1px solid #ccd4df;color:#142033}
+.research .work-art{background:#eef3fb;border:1px solid #d4deec}
+.research .p-tag{border-color:#b9c8de;color:#244b9b}
+.research .p-stat-card,.research .skill-card,.research .experience-item{background:#fff;border:1px solid #d4deec}
+.research .p-stat-card b{color:#244b9b}
+.research .about p{font-size:24px;color:#142033}
+.research .contact{border-color:#bcc7d6}
+.research .contact a{background:#244b9b;color:#fff;border:0}
+
+@media(max-width:850px){.p-grid,.skill-grid{grid-template-columns:1fr}.work{margin-bottom:20px}.p-stats{grid-template-columns:1fr 1fr}.about,.experience-item{display:block}.about{padding:30px 0}.contact{display:block;text-align:center}.contact a{display:inline-block;margin-top:15px}}
+
+
